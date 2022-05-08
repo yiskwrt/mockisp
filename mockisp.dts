@@ -1,0 +1,15 @@
+/dts-v1/;
+/plugin/;
+
+/{
+	fragment@0 {
+		target-path="/";
+
+		__overlay__ {
+			mockisp: mockisp@0 {
+				compatible = "mockisp,mockisp";
+				status = "okay";
+			};
+		};
+	};
+};
